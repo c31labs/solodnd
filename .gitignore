@@ -1,0 +1,31 @@
+# Production configuration and secrets
+config.php
+.env
+.env.*
+!.env.example
+
+# Player data and local databases
+storage/*.sqlite
+storage/*.sqlite-*
+storage/*.db
+storage/*.db-*
+storage/*.log
+storage/sessions/
+
+# Server and development artefacts
+*.log
+*.pid
+vendor/
+node_modules/
+.phpunit.cache/
+.phpunit.result.cache
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local archives and exports
+*.zip
+lanternbound-journey-*.json
