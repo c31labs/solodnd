@@ -116,6 +116,29 @@ unset($_SESSION['notice']);
     <meta name="theme-color" content="#141210">
     <title><?= $userId ? 'Your journey | Direwrought Lanternbound' : 'Direwrought Lanternbound | A free solo fantasy journey' ?></title>
     <meta name="description" content="A free and private fifth edition compatible solo fantasy roleplaying companion from Direwrought.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://direwrought.com/lanternbound/index.php">
+
+    <meta property="og:locale" content="en_AU">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Direwrought">
+    <meta property="og:title" content="Lanternbound | A Free Solo Fantasy Adventure">
+    <meta property="og:description" content="Create a hero, follow the bell into Briarwatch, and let the Oracle turn every choice into your private story.">
+    <meta property="og:url" content="https://direwrought.com/lanternbound/index.php">
+    <meta property="og:image" content="https://direwrought.com/lanternbound/assets/lanternbound-social.jpg">
+    <meta property="og:image:secure_url" content="https://direwrought.com/lanternbound/assets/lanternbound-social.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="A lone hero facing the moonlit bell tower of Briarwatch">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lanternbound | A Free Solo Fantasy Adventure">
+    <meta name="twitter:description" content="Create a hero, follow the bell into Briarwatch, and let the Oracle turn every choice into your private story.">
+    <meta name="twitter:image" content="https://direwrought.com/lanternbound/assets/lanternbound-social.jpg">
+    <meta name="twitter:image:alt" content="A lone hero facing the moonlit bell tower of Briarwatch">
+
+    <link rel="image_src" href="https://direwrought.com/lanternbound/assets/lanternbound-social.jpg">
     <link rel="icon" href="assets/direwrought-icon.png" type="image/png">
     <link rel="stylesheet" href="assets/style.css">
 </head>
