@@ -14,3 +14,10 @@ html { scroll-padding-top: 4.5rem; }
 @media (max-width: 500px) {
     html { scroll-padding-top: 6rem; }
 }
+
+.info-hero.direwrought-hero {
+    padding: clamp(1.4rem, 4.5vw, 3.5rem);
+    border-bottom: 1px solid var(--line);
+}
+.info-hero.direwrought-hero h1 { font-size: clamp(2rem, 5.25vw, 5.3rem); margin-bottom: .75rem; }
+.info-hero.direwrought-hero + .info-shell { margin-top: 1.5rem; }
