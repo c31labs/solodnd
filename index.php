@@ -153,6 +153,7 @@ unset($_SESSION['notice']);
       <a href="/#soundtrack">Soundtrack</a>
       <a href="/lanternbound/">Lanternbound</a>
       <a href="/adventurers-league/">AL Ledger</a>
+      <a href="/about/">About</a>
       <a href="https://www.youtube.com/@unhallowedechoes" aria-label="Unhallowed Echoes on YouTube">YouTube</a>
     </nav>
   </header>
@@ -247,6 +248,7 @@ unset($_SESSION['notice']);
       <a href="/#soundtrack">Soundtrack</a>
       <a href="/lanternbound/">Lanternbound</a>
       <a href="/adventurers-league/">AL Ledger</a>
+      <a href="/about/">About</a>
       <a href="https://www.youtube.com/@unhallowedechoes" aria-label="Unhallowed Echoes on YouTube">YouTube</a>
     </nav>
   </header>

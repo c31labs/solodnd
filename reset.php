@@ -22,6 +22,7 @@ require __DIR__ . '/inc/bootstrap.php';
       <a href="/#soundtrack">Soundtrack</a>
       <a href="/lanternbound/">Lanternbound</a>
       <a href="/adventurers-league/">AL Ledger</a>
+      <a href="/about/">About</a>
       <a href="https://www.youtube.com/@unhallowedechoes" aria-label="Unhallowed Echoes on YouTube">YouTube</a>
     </nav>
   </header>
