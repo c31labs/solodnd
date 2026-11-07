@@ -1,0 +1,16 @@
+html { scroll-padding-top: 4.5rem; }
+.auth-page { overflow-x: clip; }
+.info-topbar { position: relative; top: auto; }
+.token-page { display: block; padding: 0; }
+.token-page .token-card { width: min(31rem, calc(100% - 2rem)); margin: clamp(1.5rem, 8vh, 5rem) auto; }
+.lantern-masthead .direwrought-nav, .lantern-masthead .topbar { position: relative; top: auto; }
+@media (min-width: 901px) {
+    .app-page .game-grid { height: calc(100vh - 12.525rem); }
+    .app-page.has-email-banner .game-grid { height: calc(100vh - 15.625rem); }
+}
+@media (max-width: 900px) {
+    .lantern-masthead { position: sticky; top: 0; z-index: 25; }
+}
+@media (max-width: 500px) {
+    html { scroll-padding-top: 6rem; }
+}

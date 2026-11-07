@@ -141,9 +141,21 @@ unset($_SESSION['notice']);
     <link rel="image_src" href="https://direwrought.com/lanternbound/assets/lanternbound-social.jpg">
     <link rel="icon" href="assets/direwrought-icon.png" type="image/png">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="../assets/site-nav.css?v=1">
+    <link rel="stylesheet" href="assets/site-nav-bridge.css?v=1">
 </head>
 <?php if (!$userId): ?>
 <body class="auth-page">
+    <header class="direwrought-nav">
+    <a class="direwrought-nav-logo" href="/" aria-label="Direwrought home"><img src="/assets/direwrought-logo-full.png" alt=""></a>
+    <nav aria-label="Direwrought site">
+      <a href="/#adventures">Adventures</a>
+      <a href="/#soundtrack">Soundtrack</a>
+      <a href="/lanternbound/">Lanternbound</a>
+      <a href="/adventurers-league/">AL Ledger</a>
+      <a href="https://www.youtube.com/@unhallowedechoes" aria-label="Unhallowed Echoes on YouTube">YouTube</a>
+    </nav>
+  </header>
     <main class="auth-shell">
         <section class="auth-story" aria-labelledby="welcome-title">
             <a class="auth-brand" href="https://direwrought.com/" aria-label="Direwrought home">
@@ -227,6 +239,17 @@ unset($_SESSION['notice']);
 </body>
 <?php else: ?>
 <body class="app-page" data-csrf="<?= e(csrf_token()) ?>" data-notice="<?= e($notice) ?>">
+    <div class="lantern-masthead">
+    <header class="direwrought-nav">
+    <a class="direwrought-nav-logo" href="/" aria-label="Direwrought home"><img src="/assets/direwrought-logo-full.png" alt=""></a>
+    <nav aria-label="Direwrought site">
+      <a href="/#adventures">Adventures</a>
+      <a href="/#soundtrack">Soundtrack</a>
+      <a href="/lanternbound/">Lanternbound</a>
+      <a href="/adventurers-league/">AL Ledger</a>
+      <a href="https://www.youtube.com/@unhallowedechoes" aria-label="Unhallowed Echoes on YouTube">YouTube</a>
+    </nav>
+  </header>
     <header class="topbar">
         <a class="brand" href="index.php" aria-label="Direwrought Lanternbound journey home">
             <img class="brand-icon" src="assets/direwrought-icon.png" alt="">
@@ -248,6 +271,7 @@ unset($_SESSION['notice']);
             </form>
         </nav>
     </header>
+    </div>
 
     <section class="email-banner" id="emailBanner" hidden aria-label="Email verification">
         <span><strong>Protect your journey.</strong> Verify your email so you can recover access later.</span>
